@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div.sr .sr-left {
+  visibility: hidden;
+}
+div.sr .sr-right {
+  visibility: hidden;
+}
+div.sr .sr-top {
+  visibility: hidden;
+}
+div.sr .sr-top-d {
+  visibility: hidden;
+}

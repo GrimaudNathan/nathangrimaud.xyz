@@ -3,7 +3,7 @@ import ScrollReveal from 'scrollreveal'
 ScrollReveal({ duration: 1000, distance: '50px', opacity: 0 })
 </script>
 <template>
-  <div class="sticky top-0 text-white">
+  <header class="sticky top-0 text-white">
     <div class="flex justify-end">
       <div
         class="pt-24 pr-48 transition hover:-translate-x-3 hover:pr-44"
@@ -13,13 +13,13 @@ ScrollReveal({ duration: 1000, distance: '50px', opacity: 0 })
         <router-link to="/" class="text-xl font-semibold">{{ text }}</router-link>
       </div>
     </div>
-  </div>
+  </header>
   <div class="sr-bot relative mx-auto h-screen max-w-[60%] text-white">
     <div class="absolute top-1/2 -translate-y-[100%]">
       <h1 class="text-8xl font-bold">I develop & build web3 projects</h1>
     </div>
   </div>
-  <div class="mx-auto max-w-[50%] text-white pb-20">
+  <div class="mx-auto max-w-[50%] pb-20 text-white">
     <h1 class="text-5xl font-semibold">About</h1>
     <p class="mt-8 text-xl leading-8">
       Hi, I'm Nathan. A freelance web3 developer interested in contributing expertise in web and

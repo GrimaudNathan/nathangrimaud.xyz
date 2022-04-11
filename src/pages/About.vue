@@ -6,7 +6,7 @@ ScrollReveal({ duration: 1000, distance: '50px', opacity: 0 })
   <header class="sticky top-0 text-white">
     <div class="flex justify-end">
       <div
-        class="pt-24 pr-48 transition hover:-translate-x-3 hover:pr-44"
+        class="pt-10 pr-7 transition hover:-translate-x-3 md:pt-24 md:pr-48 hover:md:pr-44"
         @mouseover="text = 'nathan.home'"
         @mouseleave="text = 'nathan.'"
       >
@@ -14,12 +14,12 @@ ScrollReveal({ duration: 1000, distance: '50px', opacity: 0 })
       </div>
     </div>
   </header>
-  <div class="sr-bot relative mx-auto h-screen max-w-[60%] text-white">
+  <div class="sr-bot relative h-screen px-5 text-white md:mx-auto md:max-w-[60%]">
     <div class="absolute top-1/2 -translate-y-[100%]">
-      <h1 class="text-8xl font-bold">I develop & build web3 projects</h1>
+      <h1 class="text-6xl font-bold md:text-8xl">I develop & build web3 projects</h1>
     </div>
   </div>
-  <div class="mx-auto max-w-[50%] pb-20 text-white">
+  <div class="px-5 pb-20 text-white md:mx-auto md:max-w-[50%]">
     <h1 class="text-5xl font-semibold">About</h1>
     <p class="mt-8 text-xl leading-8">
       Hi, I'm Nathan. A freelance web3 developer interested in contributing expertise in web and

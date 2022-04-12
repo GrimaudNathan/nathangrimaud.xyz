@@ -14,12 +14,12 @@ ScrollReveal({ duration: 1000, distance: '50px', opacity: 0 })
       </div>
     </div>
   </header>
-  <div class="sr-bot relative h-screen px-5 text-white md:mx-auto md:max-w-[60%]">
-    <div class="absolute top-1/2 -translate-y-[100%]">
-      <h1 class="text-6xl font-bold md:text-9xl">Let's make somethinng great!</h1>
+  <div class="sr-bot px-5 text-white md:mx-auto md:max-w-[60%]">
+    <div class="mt-[20%]">
+      <h1 class="text-6xl font-bold md:text-8xl">Let's make somethinng great!</h1>
     </div>
   </div>
-  <div class="px-5 pb-20 text-white md:mx-auto md:max-w-[50%]">
+  <div class="sr-bot-2 mt-[15%] px-5 pb-20 text-white md:mx-auto md:max-w-[50%]">
     <h1 class="text-5xl font-semibold">Contact</h1>
     <p class="mt-8 text-xl leading-8">
       I'm seeking out opportunities to collaborate with companies / agencies / individuals, not just
@@ -41,6 +41,10 @@ export default {
   mounted() {
     ScrollReveal().reveal('.sr-bot', {
       delay: 100,
+      origin: 'bottom',
+    })
+    ScrollReveal().reveal('.sr-bot-2', {
+      delay: 300,
       origin: 'bottom',
     })
   },

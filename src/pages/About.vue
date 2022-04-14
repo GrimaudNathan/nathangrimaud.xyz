@@ -31,27 +31,27 @@ ScrollReveal({ duration: 1000, distance: '50px', opacity: 0 })
     </p>
     <h1 class="mt-16 text-5xl font-semibold">Skills</h1>
     <h2 class="mt-8 text-2xl font-medium">Web</h2>
-    <ul class="mt-2">
-      <li>• HTML</li>
-      <li>• CSS</li>
-      <li>• JavaScript / TypeScript</li>
-      <li>• VueJS</li>
+    <ul class="mt-2 marker:text-blue-700 list-disc">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript / TypeScript</li>
+      <li>VueJS</li>
     </ul>
     <h2 class="mt-4 text-2xl font-medium">Blockchain</h2>
-    <ul class="mt-2">
-      <li>• Solidity</li>
-      <li>• Hardhat</li>
-      <li>• Alchemy</li>
-      <li>• Ethers</li>
-      <li>• Metamask</li>
-      <li>• WalletConnect</li>
+    <ul class="mt-2 marker:text-blue-700 list-disc">
+      <li>Solidity</li>
+      <li>Hardhat</li>
+      <li>Alchemy</li>
+      <li>Ethers</li>
+      <li>Metamask</li>
+      <li>WalletConnect</li>
     </ul>
     <h2 class="mt-4 text-2xl font-medium">Others</h2>
-    <ul class="mt-2">
-      <li>• Git</li>
-      <li>• Cloud Computing</li>
-      <li>• DevOps</li>
-      <li>• IPFS</li>
+    <ul class="mt-2 marker:text-blue-700 list-disc">
+      <li>Git</li>
+      <li>Cloud Computing</li>
+      <li>DevOps</li>
+      <li>IPFS</li>
     </ul>
   </div>
 </template>

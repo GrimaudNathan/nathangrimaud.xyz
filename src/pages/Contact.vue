@@ -27,7 +27,7 @@ ScrollReveal({ duration: 1000, distance: '50px', opacity: 0 })
       that sounds about right, then lets for sure chat about how we can work together.
     </p>
     <div class="mt-4 text-xl text-blue-700">
-      <p>natgrimaud22@gmail.com</p>
+      <p>nathan.grimaud@epitech.eu</p>
     </div>
   </div>
 </template>

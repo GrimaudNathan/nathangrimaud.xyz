@@ -24,9 +24,15 @@ ScrollReveal({ duration: 1000, distance: '50px', opacity: 0 })
       </a>
     </div>
     <div class="mt-40 transition duration-300 hover:translate-x-10">
-      <a href="https://cryptochampionsnft.io/" target="_blank">
+      <a href="https://www.cryptochampionsnft.com/" target="_blank">
         <h1 class="text-4xl font-bold md:text-9xl">CryptoChampions</h1>
-        <h2 class="mt-5 text-2xl font-medium text-blue-700">Website, software</h2>
+        <h2 class="mt-5 text-2xl font-medium text-blue-700">Website</h2>
+      </a>
+    </div>
+    <div class="mt-40 transition duration-300 hover:translate-x-10">
+      <a href="https://nftracking.xyz/" target="_blank">
+        <h1 class="text-4xl font-bold md:text-9xl">NFTracking</h1>
+        <h2 class="mt-5 text-2xl font-medium text-blue-700">Website</h2>
       </a>
     </div>
     <div class="mt-40 transition duration-300 hover:translate-x-10">

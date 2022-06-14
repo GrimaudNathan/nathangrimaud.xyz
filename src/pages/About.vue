@@ -35,7 +35,7 @@ ScrollReveal({ duration: 1000, distance: '50px', opacity: 0 })
       <li>HTML</li>
       <li>CSS</li>
       <li>JavaScript / TypeScript</li>
-      <li>VueJS</li>
+      <li>VueJS / ReactJS</li>
     </ul>
     <h2 class="mt-4 text-2xl font-medium">Blockchain</h2>
     <ul class="mt-2 marker:text-blue-700 list-disc">

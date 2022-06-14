@@ -5,6 +5,11 @@ ScrollReveal({ duration: 1000, distance: '50px', opacity: 0 })
 </script>
 <template>
   <div @click="reveal()" class="relative h-screen px-5 md:mx-auto md:max-w-[60%]">
+    <img
+      src="/src/assets/profile.png"
+      alt="profile"
+      class="sr-bot-3 absolute bottom-0 -right-32 hidden h-[80%] w-auto md:block"
+    />
     <div class="absolute top-1/2 -translate-y-1/2">
       <div class="sr-bot">
         <div

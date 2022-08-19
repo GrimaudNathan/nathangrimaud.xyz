@@ -43,6 +43,22 @@ ScrollReveal({ duration: 1000, distance: '50px', opacity: 0 })
         </h2>
       </a>
     </div>
+    <div class="mt-40 transition duration-300 hover:translate-x-10">
+      <a href="https://skaale.io/" target="_blank">
+        <h1 class="text-4xl font-bold md:text-9xl">Skaale</h1>
+        <h2 class="mt-5 text-2xl font-medium text-blue-700">
+          Website
+        </h2>
+      </a>
+    </div>
+    <div class="mt-40 transition duration-300 hover:translate-x-10">
+      <a href="https://www.co-labs.xyz/" target="_blank">
+        <h1 class="text-4xl font-bold md:text-9xl">CoLabs</h1>
+        <h2 class="mt-5 text-2xl font-medium text-blue-700">
+          Website
+        </h2>
+      </a>
+    </div>
   </div>
 </template>
 <script>
